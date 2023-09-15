@@ -1,0 +1,93 @@
+header {
+    background: url(../../img/public/header.svg), linear-gradient(180deg, #E26BFF 0%, #B466FF 100%);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 790px;
+    position: relative;
+}
+
+.header-top {
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding-top: 39px;
+    margin-bottom: 70px;
+
+}
+
+.header-top .nav-link {
+    font-size: 18px;
+    font-weight: 400;
+    margin-right: 35px;
+}
+
+.header-top-title {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 32px;
+    font-weight: 700;
+    color: var(--main-color);
+}
+
+.header-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-bottom h1 {
+    text-align: center;
+}
+
+
+.header-bottom-title {
+    margin-bottom: 30px;
+    font-size: 85px;
+    font-weight: 800;
+}
+
+.header-bottom-text {
+    width: 760px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.header-back-img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.header-eclipse-img {
+    position: absolute;
+    top: 0;
+    right: 0;
+
+}
+
+.header-icons {
+    position: absolute;
+    bottom: 10px;
+    left: 50px;
+}
+
+.header-icons-item {
+    margin-bottom: 40px;
+}
+
+.header-icons-link {
+    color: #fff;
+}
+
+.tree-phone-img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 99;
+}
