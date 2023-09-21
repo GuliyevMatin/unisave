@@ -32,7 +32,7 @@
 		nav:true,
 		navText: ["<img src='./assets/img/public/slidernavleft.png'>","<img src='./assets/img/public/slidernavright.png'>"],
 		responsive:{
-			1000:{
+			0:{
 				items:1
 			}
 		}

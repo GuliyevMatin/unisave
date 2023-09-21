@@ -10,7 +10,9 @@ main {
     right: 0;
 }
 
-
+.navbar-brand{
+    display: none;
+}
 .download-buttons {
     height: 350px;
     position: relative;
@@ -188,7 +190,7 @@ main {
 }
 
 #faqs .main-line {
-    right: -5%;
+    right: 0;
     top: -40%;
 }
 
