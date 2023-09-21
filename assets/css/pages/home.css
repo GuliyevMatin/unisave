@@ -274,3 +274,7 @@ main {
 .download-section-left-images img{
     margin-right: 15px;
 }
+
+.navbar-toggler i{
+    color: #FFF;
+}
